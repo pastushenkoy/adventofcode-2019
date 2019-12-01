@@ -8,4 +8,4 @@ open Functions
 [<InlineData(1969, 966)>]
 [<InlineData(100756, 50346)>]
 let ``countTotalFuel`` (mass, result) =
-    Assert.Equal(fuel, countTotalFuel mass)
+    Assert.Equal(result, countTotalFuel mass)
